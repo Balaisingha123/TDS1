@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Balai Singha | Portfolio</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#586477; --accent:#2864dc; --card:#ffffff; --bg:#f4f7fb; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; color:var(--ink); background:var(--bg); }
+    header { padding:64px 22px 48px; background:linear-gradient(135deg,#14284b,#2864dc); color:#fff; }
+    .wrap { max-width:900px; margin:0 auto; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.15em; font-size:.8rem; opacity:.8; }
+    h1 { font-size:clamp(2.3rem,6vw,4rem); line-height:1.1; margin:.35em 0; }
+    header p { max-width:650px; color:#e3ebff; }
+    main { padding:30px 22px 56px; }
+    section { background:var(--card); padding:24px; margin:18px 0; border-radius:16px; box-shadow:0 8px 26px #12284b0d; }
+    h2 { margin-top:0; }
+    .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+    .project { border:1px solid #e4e9f2; border-radius:12px; padding:16px; }
+    .tag { display:inline-block; background:#eaf0ff; color:#214fae; border-radius:999px; padding:3px 10px; font-size:.85rem; margin:3px 4px 3px 0; }
+    a { color:var(--accent); }
+    footer { padding:22px; text-align:center; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Portfolio</div>
+      <h1>Balai Singha</h1>
+      <p>Student and aspiring developer building practical projects in software, data analysis, and web technologies.</p>
+      <p><a style="color:#fff" href="#projects">Explore my work</a> · <a style="color:#fff" href="#contact">Contact</a></p>
+    </div>
+  </header>
+  <main class="wrap">
+    <section>
+      <h2>About</h2>
+      <p>I enjoy learning by building useful applications, working with data, and improving my skills through hands-on projects.</p>
+      <p><span class="tag">Python</span><span class="tag">Data Analysis</span><span class="tag">APIs</span><span class="tag">HTML &amp; CSS</span></p>
+    </section>
+    <section id="projects">
+      <h2>Selected Work</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Configuration Precedence API</h3>
+          <p>A small API demonstrating layered configuration and effective settings.</p>
+          <span class="tag">Python</span><span class="tag">FastAPI</span>
+        </article>
+        <article class="project">
+          <h3>Data Analysis Practice</h3>
+          <p>Exploring tabular data, filtering records, and calculating useful metrics.</p>
+          <span class="tag">CSV</span><span class="tag">Analytics</span>
+        </article>
+        <article class="project">
+          <h3>Developer Learning</h3>
+          <p>Command-line workflows, automation, and version-controlled project work.</p>
+          <span class="tag">Git</span><span class="tag">Shell</span>
+        </article>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <!--email_off-->23f2000505@ds.study.iitm.ac.in<!--/email_off--></p>
+      <p>GitHub: <a href="https://github.com/Balaisingha123">github.com/Balaisingha123</a></p>
+    </section>
+  </main>
+  <footer>© 2026 Balai Singha · Built with HTML and CSS</footer>
+</body>
+</html>
